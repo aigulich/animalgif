@@ -1,0 +1,35 @@
+body {
+  background-color: #101b5f;
+  color:#101b5f;
+}
+
+h1 {
+  padding-left: 35%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #f72143;
+  font-size: 100px;
+  font-family: "Roboto";
+  background-color: #f0a56b;
+  margin-block-end: -15px;
+
+}
+
+
+.gif {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: #101b5f;
+  margin-block-start: -1em;
+  
+  }
+
+@media screen and (max-width: 400px) and (min-width: 451px) and (max-width: 1024px) {
+  .gif {
+    width: 100%;
+  } }
+
+  @media only screen and (min-width: 768px) {
+    .gif {
+      width: 100%;
+    } }
